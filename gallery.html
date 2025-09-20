@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Travel Explorer - Gallery</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>🌍 Travel Explorer</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="destinations.html">Destinations</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <section class="gallery">
+  <img src="images/001.jpg" alt="Gallery 1" class="gallery-img zoom">
+  <img src="images/002.jpg" alt="Gallery 2" class="gallery-img zoom">
+  <img src="images/003.jpg" alt="Gallery 3" class="gallery-img zoom">
+</section>
+
+
+  <div class="slideshow">
+  <button onclick="prevImage()">⏮ Prev</button>
+  <img id="slide" src="https://picsum.photos/id/1025/600/350" alt="Slideshow">
+  <button onclick="nextImage()">Next ⏭</button>
+</div>
+
+
+  <footer>
+    <p>© 2025 Travel Explorer | Designed by You</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
