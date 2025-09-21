@@ -50,11 +50,14 @@ header nav a:hover {
 
 /* Hero */
 .hero {
-  background: url("images/INTRO.jpeg") no-repeat center center/cover;
-  color: white;
-  text-align: center;
-  padding: 245px 20px;
+  background: url('images/INTRO.jpeg') no-repeat center center/cover;
+  background-size: cover;
 }
+section {
+  padding: 50px; /* Change to responsive later */
+  min-height: 600px; /* Delete or replace with min-height in vh */
+}
+
 .hero button {
   padding: 10px 20px;
   background: #ffdd00;
